@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Midias</h1>
+
+    <h2>Imagens dinamicas</h2>
+
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+    
+    <h2>Audios</h2>
+
+    <p>Vamos aprender a reproduzir audios em HTML5.</p>
+
+    <audio preload="auto" autoplay controls loop>
+        <source src="midia/sailing-telecasted.mp3" type="audio/mpeg">
+        <source src="midia/sailing-telecasted.ogg" type="audio/ogg">
+        <source src="midia/sailing-telecasted.wav" type="audio/wav">
+        <p>Infelizmente seu navegador nao consegue reproduzir audio.<a href="midia/sailing-telecasted.mp3" target="_blank">Clique aqui</a>para baixar o arquivo MP3</p>
+    </audio>
+
+    <br>
+    <audio src="midia/seasons-telecasted.mp3" controls autoplay></audio>
+    
+    <h2>Videos</h2>
+
+    <h3>Video locais/internos</h3>
+    <p>Vamos aprender a inserir videos hospedados localmente em HTML5.</p>
+
+    <video src="videos/my-coffee-video.m4v" width="560" poster="imagens/coffee-heart-500.webp" controls autoplay>Um video de cafe</video>
+
+    <p>Ou podemos inserir videos localmente assim</p>
+
+    <video width="560" poster="imagens/coffee-heart-500.webp" controls autoplay>
+        <source src="videos/my-coffee-video.m4v" type="video/mp4"> 
+        <source src="videos/meu-video.mp4" type="video/mp4">
+        <p>Seu navegador nao tem compatibilidade com reproducao de videos.</p>
+    </video>
+
+    <h3>Videos externos</h3>
+    <p>Vamos aprender a inserir videos hospedados externamente como no Youtube ou Vimeo.</p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jzEciC9Nxqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

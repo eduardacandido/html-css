@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores Personalizados</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: normal;
+            color: orangered;
+        }
+
+        #ache {
+            display: inline-block;
+            border: 1px solid lightskyblue;
+            background-color: lightcyan;
+            text-align: right;
+            height: 1000px;
+            width: 100%;
+        }
+
+        div > h1,p,a {
+            display: none;
+        }
+
+        div > #achou {
+            width: 100px;
+            height: 100px;
+            text-align: center;
+        }
+
+        #eu {
+            display: none;
+        }
+
+        div:hover > #eu {
+            display: block;
+            color: red;
+            text-decoration: none;
+            border: 2px dashed red;
+            border-collapse: separate;
+        }
+
+        #achou:hover > p {
+            display: block;
+            border: none;
+        }
+
+        div:active > h1 {
+            display: block;
+        }
+
+        #otario {
+            text-align: center;
+            font-size: 4em;
+            color: rgb(255, 145, 0);
+        }
+
+        p {
+            color: orangered;
+        }
+    </style>
+</head>
+<body>
+    <h1>Me ache</h1>
+    <div id="ache">
+        <div id="achou">
+            <a href="parabens.html" target="_blank" id="eu">NAO CLIQUE AQUI!</a>
+            <p>Parabens! Voce me achou!</p>
+        </div>
+        <h1 id="otario">NAO AI!</h1>
+    </div>
+
+
+</body>
+</html>

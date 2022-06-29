@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Flexible Image</title>
+    <style>
+        source
+        {
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flexible Image</h1>
+    <p>You are looking at a complete image? Try to expand the window size for a better experience. :)</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1209px)" srcset="images/paisagem-m.png" type="image/png">
+        <img src="images/paisagem-g.png" alt="Paisagem Flexivel">
+    </picture>
+</body>
+</html>
