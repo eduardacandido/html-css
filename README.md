@@ -1,9 +1,8 @@
 # html-css
  Curso de HTML5 e CSS3 do CursoemVideo
 
-Desafios:
+<h2>Desafios:</h2>
 
-<ul>
   <li><a href="https://eduardacandido.github.io/html-css/desafios/des001/">Executar o desafio 001</a>
   <li><a href="https://eduardacandido.github.io/html-css/desafios/des002/">Executar o desafio 002</a>
   <li><a href="https://eduardacandido.github.io/html-css/desafios/des003/">Executar o desafio 003</a>
@@ -16,11 +15,9 @@ Desafios:
   <li><a href="https://eduardacandido.github.io/html-css/desafios/des0010/">Executar o desafio 0010</a>
   <li><a href="https://eduardacandido.github.io/html-css/desafios/des0011/">Executar o desafio 0011</a>
   <li><a href="https://eduardacandido.github.io/html-css/desafios/des0012/">Executar o desafio 0012</a>
-</ul>
 
-Exercicios:
+<h2>Exercicios:</h2>
 
-<ul>
   <li><a href="https://eduardacandido.github.io/html-css/exercicios/ex001/">Executar o exercicio 001</a>
   <li><a href="https://eduardacandido.github.io/html-css/exercicios/ex002/">Executar o exercicio 002</a>
   <li><a href="https://eduardacandido.github.io/html-css/exercicios/ex003/">Executar o exercicio 003</a>
@@ -33,4 +30,3 @@ Exercicios:
   <li><a href="https://eduardacandido.github.io/html-css/exercicios/ex0010/">Executar o exercicio 0010</a>
   <li><a href="https://eduardacandido.github.io/html-css/exercicios/ex0011/">Executar o exercicio 0011</a>
   <li><a href="https://eduardacandido.github.io/html-css/exercicios/ex0012/">Executar o exercicio 0012</a>
-</ul>
